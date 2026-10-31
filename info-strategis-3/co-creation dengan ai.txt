@@ -1,0 +1,143 @@
+Claude
+Buat baru
+Ctrl
++
+Shift
++
+O
+Cari
+Ctrl
++
+Shift
++
+K
+Proyek
+Artefak
+Code
+Tingkatkan
+Kustomisasi
+Disematkan
+Seret untuk menyematkan
+Chat dan tugas
+Penjelasan dataset dan kolomnya
+Penjelasan dataset dan makna kolom
+Perbaikan visual konten PPT
+Menerapkan big data dan deep learning untuk model ML yang optimal
+Dashboard HTML visualisasi data paper
+Convert to PDF
+Pengerjaan soal ipynb bertahap dengan penjelasan rumus
+Menangkap foto dan video di Twitter dengan efisien
+Validasi pola belanja Citra pada dataset lebih besar
+Rapikan laporan
+Persiapan presentasi berdasarkan cue card dan laporan
+Evaluasi laporan dan solusi captcha
+Perbandingan matriks score eksp4.ipynb vs main.ipynb
+Membuat README profil GitHub
+Finding websites with similar URL patterns
+Merita product guidelines documentation
+Flutter run JAVA_HOME error configuration
+Menentukan judul publikasi dari gap dan solusi
+Sistem jasa titip pihak ketiga komersial
+Menambahkan section unik
+Lihat semua
+bujank
+·
+Free
+
+Aku tambahkan kolom untuk siapa dan keputusan apa yang terbantu. Dasar grafiknya sama dengan yang tadi.
+
+Informasi → pihak yang paling berkepentingan
+#	Informasi strategis	Pihak utama	Keputusan yang terbantu
+1	Pertumbuhan baru melaju lagi (sekitar +16% per kuartal di FY2026)	Investor dan analis	Menilai apakah prospek bisnis membaik atau hanya lonjakan sesaat, lalu memutuskan untuk menambah, menahan, atau mengurangi posisi
+		Manajemen Apple	Menentukan apakah kapasitas produksi dan rencana ekspansi perlu ditambah
+		Pemasok dan mitra	Memperkirakan pesanan yang akan datang, sehingga bisa menyiapkan kapasitas
+2	Margin naik (laba kotor 37,8% → 46,9%)	Manajemen Apple	Mengevaluasi strategi harga dan biaya: apa yang berhasil dan perlu dipertahankan
+		Investor dan analis	Menilai kekuatan bisnis, apakah keuntungan tahan banting
+		Pesaing	Mengukur jarak efisiensi mereka terhadap Apple
+3	Pembagian uang sering melebihi arus kas bebas	Manajemen Apple / dewan direksi	Menetapkan batas buyback dan dividen supaya tidak menggerus simpanan
+		Investor dividen	Menilai apakah dividen dan buyback bisa berlanjut
+		Pemberi pinjaman	Menilai apakah perusahaan membagikan terlalu banyak sehingga risiko utang naik
+4	Ekuitas menipis, utang tinggi, lalu pulih	Pemberi pinjaman dan pembeli surat utang	Menentukan kesediaan membeli surat utang dan syaratnya, misalnya bunga
+		Manajemen keuangan Apple	Mengatur jatuh tempo dan jumlah utang baru
+		Analis risiko	Memantau apakah pola 2018-2021 terulang
+5	Sepertiga pendapatan masuk di satu kuartal	Tim operasional dan rantai pasok Apple	Mengatur stok, produksi, dan tenaga kerja menjelang Q1
+		Pemasok dan toko mitra	Menyiapkan stok dan staf pada musim puncak
+		Investor dan analis	Menjadikan kuartal Oktober-Desember sebagai tolok ukur utama tahun itu
+Kalau dilihat dari sisi pihaknya
+Pihak	Informasi yang paling berguna
+Manajemen dan direksi Apple	2, 3, 4, 5 (mengatur biaya, pembagian uang, utang, dan operasional)
+Investor dan analis	1, 2, 3, 5 (menilai prospek dan kesehatan bisnis)
+Pemberi pinjaman dan pembeli surat utang	3, 4 (menilai risiko gagal bayar dan syarat pinjaman)
+Pemasok dan mitra bisnis	1, 5 (memperkirakan permintaan dan jadwal puncak)
+Pesaing	2 (membandingkan efisiensi)
+Mahasiswa dan pembelajar	Semuanya, sebagai contoh membaca laporan keuangan
+Catatan penggunaan
+Posisi kamu menentukan. Informasi yang sama bisa menghasilkan tindakan berbeda tergantung kamu di pihak mana. Kalau kamu bilang kamu di posisi apa (investor, mahasiswa, pembuat kebijakan, dan sebagainya), tabelnya bisa aku persempit.
+Ini bukan saran investasi. Aku bukan penasihat keuangan. Angka di atas membantu memahami kondisi perusahaan, tapi keputusan membeli atau menjual saham perlu mempertimbangkan hal lain, termasuk harga saham yang tidak ada di datamu.
+Data hanya menunjukkan apa yang terjadi, bukan kenapa. Penyebab perubahan margin, buyback, atau utang perlu dicari dari sumber lain, misalnya isi laporan 10-K dan 10-Q.
+
+Mau aku buatkan dashboard satu halaman dengan kelima grafik ini, lengkap dengan keterangan “untuk siapa” di tiap bagiannya?
+
+coba deh pick 1 aja yang menurut km informasi strategis nya beneran strategis lalu berikan
+untuk siapa informasi strategis nya, lalu dataset apa aja yang terlibat, dan visualisasi apa yang dibutuhkan, masalah nya apa, solusi nya apa
+
+Aku pilih informasi no. 3: pembagian uang ke pemegang saham (buyback + dividen) dibandingkan arus kas bebas.
+
+Alasannya: ini keputusan yang benar-benar bisa diubah oleh manajemen, nilainya sangat besar (sekitar 100 miliar dolar per tahun), dan langsung menghubungkan kas yang dihasilkan dengan kondisi neraca. Informasi lain, seperti margin dan pola musiman, lebih bersifat deskriptif: menjelaskan keadaan, tapi tidak menuntut keputusan.
+
+1. Untuk siapa
+Pihak	Alasan butuh informasi ini
+Dewan direksi dan CFO Apple (utama)	Merekalah yang menetapkan besar buyback dan dividen
+Pemberi pinjaman dan pembeli surat utang	Menilai apakah pembagian yang besar menambah risiko utang
+Investor dividen dan buyback	Menilai apakah pembagian ini bisa berlanjut
+2. Masalahnya
+
+Apakah Apple membagikan lebih banyak uang daripada yang dihasilkan bisnisnya?
+
+Ukurannya adalah rasio uang yang dibagikan ÷ arus kas bebas, dengan arus kas bebas = kas dari operasi dikurangi belanja pabrik dan peralatan. Kalau rasionya di atas 100%, selisihnya dibiayai dari simpanan atau pinjaman.
+
+3. Dataset yang terlibat
+Dataset	Peran	Kolom/konsep yang dipakai
+financial_facts.csv (utama)	Semua angka dalam analisis	concept (arus kas operasi, belanja pabrik dan peralatan, buyback, dividen, ekuitas, utang jangka panjang), value, start, end, form = 10-K
+filings.csv (penunjang, opsional)	Memverifikasi surat sumber angka lewat accn ↔ accessionNumber, dan melihat kapan Apple menerbitkan surat utang (form 424B2)	form, filingDate
+
+Intinya ada di financial_facts.csv. filings.csv tidak wajib, hanya menambah konteks waktu penerbitan utang, dan hanya untuk data 2015 ke atas.
+
+4. Visualisasi yang dibutuhkan
+#	Grafik	Fungsi	Status
+1	Batang arus kas bebas vs uang yang dibagikan	Melihat besar keduanya berdampingan	Sudah dibuat
+2	Garis rasio pembagian ÷ arus kas bebas, dengan garis batas 100%	Menunjukkan tahun mana yang melewati batas	Dibuat di bawah
+3	Garis ekuitas vs utang jangka panjang	Melihat dampaknya ke neraca	Sudah dibuat
+4	Garis waktu penerbitan surat utang (424B2)	Melihat apakah utang baru berkelompok di tahun rasio tinggi	Opsional, dari filings.csv
+
+Grafik 2 adalah bukti inti dari masalahnya:
+
+Berapa persen arus kas bebas yang dibagikan ke pemegang saham
+% dari arus kas bebas berdasarkan Tahun fiskal
+Pembagian ÷ arus kas bebas (%)
+Batas 100%
+
+Cara membacanya:
+
+2015-2017: di bawah 100%, pembagian lebih kecil dari kas yang dihasilkan.
+2018-2021: di atas 100%, puncaknya 137,6% di 2019.
+2022-2023: kembali di bawah 100%.
+2024-2025: naik lagi ke 101,3% dan 107,5%.
+
+Jika dijumlahkan, selama 2018-2025 Apple membagikan sekitar 59 miliar dolar lebih banyak daripada arus kas bebas yang dihasilkannya. Selama 2015-2017 ada sisa sekitar 41 miliar.
+
+Dampaknya terlihat di grafik 3 sebelumnya: ekuitas turun dari 134 miliar (2017) ke 50,7 miliar (2022), dan utang jangka panjang naik ke 109,1 miliar (2021).
+
+5. Solusinya
+
+Ini arah tindakan yang masuk akal, bukan hasil hitungan dari data:
+
+Solusi	Penjelasan	Bukti pendukung dari data
+Pasang batas pembagian berbasis arus kas bebas	Misalnya rata-rata beberapa tahun tidak melewati 100%, bukan berpatokan pada laba	Rasio melewati 100% di 6 dari 11 tahun
+Pisahkan dividen dan buyback	Dividen dijaga stabil (sudah naik pelan 10,5 → 15,4 miliar), sedangkan buyback dibuat fleksibel mengikuti arus kas	Dividen stabil, buyback yang berayun (22,9 → 94,9 miliar)
+Pantau ekuitas dan utang sebagai alarm	Kalau ekuitas turun dan utang naik bersamaan, itu tanda pola 2018-2021 terulang	Dua garis ini sudah membaik sejak 2022
+Perhatikan 2024-2025	Rasio naik lagi di atas 100%, jadi layak dicermati sebelum melebar seperti 2019	Rasio 101,3% → 107,5%
+Batasan yang perlu diingat
+Rasio di atas 100% tidak otomatis buruk. Apple punya simpanan dalam bentuk sekuritas yang tidak aku hitung, karena aku hanya melihat kas dan setara kas. Jadi data ini belum bisa menyimpulkan bahwa Apple kekurangan uang.
+Data tidak menjelaskan alasan di balik keputusan Apple membagikan lebih banyak. Itu perlu dicari dari sumber lain.
+Data 2014 tidak lengkap untuk arus kas operasi, sehingga grafik dimulai dari 2015.

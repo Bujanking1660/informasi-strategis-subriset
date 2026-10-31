@@ -1,0 +1,18 @@
+1. Alarm Dini Hambatan Dalam (Early Warning System)
+- Fakta Visual (Plot 1): Label risiko konvensional telat. Status Medium sisa usia baterai tinggal ~53 siklus (1–2 bulan operasional); status High sudah di 0 siklus. Sebaliknya, hambatan dalam (internal resistance) naik bertahap: <60 mΩ risiko 0,04%, 60–70 mΩ risiko 1%, >90 mΩ lonjak 81%.
+- Strategi: Pasang aturan threshold alert telemetri BMS di angka 60–70 mΩ. Jadwalkan servis sebelum status risiko sistem berubah Medium/High. Hindari downtime mendadak.
+- Target: Tim Operasional Armada, Teknisi Perawatan (Maintenance).
+2. Standardisasi Pengadaan Kimia Sel Sesuai Profil Rute & Iklim
+- Fakta Visual (Plot 2): Disparitas daya tahan kimia sel masif. Pada rute berat (>100 km/hari), tingkat masalah sel LFP hanya 0,2%, NMC 13,7%, NCA 16,9%, LMO anjlok 27,7%. Di iklim tropis lembap, kegagalan NCA naik +120% (11,7% vs 5,3%).
+- Strategi: 
+- Wajibkan baterai LFP untuk armada komersial (taksi, logistik) dan wilayah tropis.
+- Batasi sel NMC/NCA hanya untuk kendaraan pribadi rute sedang.
+- Larang pengadaan unit berbasis LMO untuk operasional armada intensif.
+- Target: Tim Pengadaan (Procurement), Pabrikan EV, Perusahaan Leasing.
+3. Mitigasi Beban Kombinasi (Heavy Usage) & Regulasi Pengisian
+- Fakta Visual (Plot 3): Jarak tempuh >100 km/hari naikkan kegagalan hampir 4x lipat (3,4% ke 12,6%). Beban kombinasi 3 faktor (distance tinggi + fast charge >50% + DoD >70%) picu degradasi eksponensial.
+- Strategi:
+- Terapkan rotasi unit kendaraan (tukar unit rute berat ke rute ringan per periode).
+- Batasi pengisian cepat via konfigurasi BMS: prioritaskan pengisian normal AC, cegah pengosongan baterai di bawah 20–30% SoC (DoD >70%).
+- Desain kontrak pengisian daya (smart charging) dengan operator SPKLU (CPO).
+- Target: Fleet Manager, Operator SPKLU, Pengembang Software BMS.
